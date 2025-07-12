@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=400, height=250, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 250px;
+      background-color: #131318;
+    }
+    #home_page {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 25px;
+      width: 100%;
+      height: 100%;
+    }
+    .spinner {
+      width: 24px;
+      height: 24px;
+      border: 4px solid transparent;
+      border-image: conic-gradient(from 0deg, #BFC2FF 0deg 90deg, transparent 90deg 360deg) 1 round;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    .label {
+      margin-top: 15px;
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 32px;
+      color: #BFC2FF;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="home_page">
+    <div class="spinner"></div>
+    <div class="label">Retrieving data...</div>
+  </div>
+  <script src="extension.js"></script>
+</body>
+</html>
