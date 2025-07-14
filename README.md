@@ -10,7 +10,7 @@ Ensure your Linkora Sync-Server is running and accessible.
 ### Installation
 The extension is not yet available on official web stores. Manual installation is required:
 
-1. **Download**: Get the latest release from the [Linkora Browser Extension Releases](https://github.com/linkora/browser-extension/releases) page
+1. **Download**: Get the latest release from the [Linkora Browser Extension Releases](https://github.com/LinkoraApp/browser-extension/releases) page
 
 2. **Extract**: Unzip the downloaded file to a dedicated folder
 
