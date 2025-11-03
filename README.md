@@ -2,6 +2,8 @@
 
 Browser extension that adds "Share from other app" functionality to web browsers. Integrates with your Linkora Sync-Server to save and sync web page links with metadata.
 
+**Note**: This browser extension doesn't yet support attaching tags or folder search while saving the links.
+
 ## Quick Start
 
 ### Prerequisites
@@ -45,20 +47,9 @@ For HTTPS functionality, proper certificate configuration is required:
 ### Server Requirements
 Requires a running Linkora Sync-Server instance. The server provides the UI components and handles synchronization logic.
 
-*Future Update*: Direct communication with the Linkora desktop app will be supported in an upcoming release.
-
 ### Browser Support
 **Tested**: Firefox and Brave
 
-**Known Issues**: Zen browser (Firefox-based) experiences crashes during extension loading.
-
-## Features
-
-**Web Content Capture**: Saves web page metadata (URL, title, image) with optional notes into chosen folders. Replicates the mobile app's "Share from other app" workflow for desktop browsers.
-
-**Sync-Server Integration**: Connects to your self-hosted Linkora Sync-Server for synchronization across devices.
-
-**Hybrid Architecture**: Server-rendered UI with client-side browser operations.
 
 ## Screenshots
 | | | | |
