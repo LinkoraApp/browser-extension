@@ -23,7 +23,7 @@ on [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/linkora-brow
 
 For Chrome or manual installation:
 
-1. **Download**: Get the latest release from
+1. **Download**: Get the latest release (`extension.zip`) from
    the [Linkora Browser Extension Releases](https://github.com/LinkoraApp/browser-extension/releases) page.
 
 2. **Extract**: Unzip the downloaded file to a dedicated folder.
@@ -58,6 +58,12 @@ trusted root certification authorities.
 ### Browser Support
 
 **Tested**: Firefox and Brave
+
+## Screenshots
+
+|                   |                   |                   |                   |
+|-------------------|-------------------|-------------------|-------------------|
+| ![](assets/1.png) | ![](assets/2.png) | ![](assets/3.png) | ![](assets/4.png) |
 
 ## Support
 
