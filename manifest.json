@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Linkora - Browser Extension",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Browser extension support for Linkora.",
   "action": {
-    "default_popup": "extension.html",
+    "default_popup": "index.html",
     "default_icon": {
       "16": "icons/16.png",
       "32": "icons/32.png",
@@ -18,9 +18,6 @@
     "48": "icons/48.png",
     "128": "icons/128.png"
   },
-  "permissions": [
-    "tabs"
-  ],
   "host_permissions": [
     "<all_urls>"
   ],
@@ -28,5 +25,8 @@
     "gecko": {
       "id": "{4e3c239b-7f42-4f4e-a8b1-33dc303e97a7}"
     }
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; connect-src * data: blob: filesystem:;"
   }
 }
